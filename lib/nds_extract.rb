@@ -22,7 +22,7 @@ def directors_totals(nds)
   d_index = 0
 while d_index < directors_database.length do
   d_totals = 0
-  puts result[directors_database[d_index][:name]]
+  result[directors_database[d_index][:name]]
   m_index = 0
   while m_index < directors_database[d_index][:movies].length do
     #puts directors_database[d_index][:movies][m_index][:worldwide_gross]
