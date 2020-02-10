@@ -27,7 +27,7 @@ while d_index < directors_database.length do
   while m_index < directors_database[d_index][:movies].length do
     #puts directors_database[d_index][:movies][m_index][:worldwide_gross]
     #m_index += 1
-    #d_totals += directors_database[d_index][:movies][m_index][:worldwide_gross]
+    d_totals += directors_database[d_index][:movies][m_index][:worldwide_gross]
     m_index += 1
   end
 d_totals += directors_database[d_index][:movies][m_index][:worldwide_gross]  #d_totals += directors_database[d_index][:movies][m_index][:worldwide_gross]
