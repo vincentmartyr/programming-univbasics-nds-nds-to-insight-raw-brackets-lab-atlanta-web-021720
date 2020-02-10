@@ -34,6 +34,7 @@ result[directors_database[d_index][:name]] = d_totals
 #puts d_totals #+= directors_database[d_index][:movies][m_index][:worldwide_gross]  #d_totals += directors_database[d_index][:movies][m_index][:worldwide_gross]
 d_index += 1
 end
+result
 #puts d_totals
 #inner_arrays << d_totals
 #results[inner_arrays]
