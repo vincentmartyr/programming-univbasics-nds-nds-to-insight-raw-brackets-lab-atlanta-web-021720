@@ -33,7 +33,7 @@ while d_index < directors_database.length do
 puts d_totals += directors_database[d_index][:movies][m_index][:worldwide_gross]  #d_totals += directors_database[d_index][:movies][m_index][:worldwide_gross]
 d_index += 1
 end
-puts d_totals
+#puts d_totals
 #inner_arrays << d_totals
 #results[inner_arrays]
 #directors_database[m_index][:movies][d_index][:worldwide_gross]
